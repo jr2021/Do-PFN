@@ -10,6 +10,7 @@ $$CID := p(y | do(t), x)$$
 
 A CID answers a question like "What is the distribution of outcomes given that (i) a patient has features $x$ and (ii) an intervention $do(t)$ is performed?". We assume the outcome $y$ as well as the covariates $x$ to be continuos, numerical values. The treatment $t$ can take the values $1$ (treatment) and $0$ (no treatment). 
 
+Using Do-PFN one can also estimate Conditional Average Treatment effects (CATEs) via the following formula: 
 
 $$CATE:= E[y | do(t=1), x] - E[y | do(t=0), x]$$
 
